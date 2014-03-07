@@ -1,25 +1,16 @@
 .. _hh_sampling:
 
 ******************************************************************
-Exact Sampling from the Stationary Distribution of Entry-Exit Models
+Perfect Simulation for Models of Industry Dynamics
 ******************************************************************
 
-This page collects files and computer code for the paper **Exact Sampling from
-the Stationary Distribution of Entry-Exit Models** by Takashi Kamihigashi
-and John Stachurski.
+This page collects files and computer code for the paper **Perfect Simulation for Models of Industry Dynamics**
+by Takashi Kamihigashi and John Stachurski.
 
 Abstract
 ---------
 
-In equilibrium models of firm dynamics, the stationary equilibrium
-distribution of firms summarizes the predictions of the model for a given set
-of primitives.  Focusing on Hopenhayn's seminal model of firm dynamics with
-entry and exit (Econometrica, 60:5, 1992, p.~1127--1150), we provide an
-algorithm that samples *exactly* from the stationary distribution for any
-specified exit threshold.   The algorithm is able to rapidly generate large
-numbers of exact and independent draws from the stationary distribution, and
-thus can be used to obtain unbiased estimates and confidence intervals for
-moments and distributions of interest.
+In this paper we introduce a technique for perfect simulation from the stationary distribution of a standard model of industry dynamics. The method can be adapted to other, possibly non-monotone, regenerative processes found in industrial organization and other fields of economics.  The algorithm we propose is a version of coupling from the past. It is straightforward to implement and exploits the regenerative property of the process in order to achieve rapid coupling. 
 
 
 Code
